@@ -2,16 +2,16 @@
 class Ogh < Formula
   desc "Helper script for Apache Hadoop Ozone development"
   homepage ""
-  version "1.3.0"
+  version "1.4.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/elek/ogh/releases/download/v1.3.0/ogh_1.3.0_Darwin_x86_64.tar.gz"
-    sha256 "46e53927a3683e8a32501d9b203338a284f47e718facfb869638db676daf2051"
+    url "https://github.com/elek/ogh/releases/download/v1.4.0/ogh_1.4.0_Darwin_x86_64.tar.gz"
+    sha256 "0f2ff9d951ccf318a4b8b481f2d96ce0f1b3b06ab408db7cc1dee29b6d08d96a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/elek/ogh/releases/download/v1.3.0/ogh_1.3.0_Linux_x86_64.tar.gz"
-      sha256 "17338a01e07c8fc0a387e600e5c60e432e74973ee8327371711dfd809bf73095"
+      url "https://github.com/elek/ogh/releases/download/v1.4.0/ogh_1.4.0_Linux_x86_64.tar.gz"
+      sha256 "63b64069ffa0d99ef898f14244fe72f8fd36bc55744be384a4b118c23ea19dc1"
     end
   end
 
