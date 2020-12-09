@@ -2,16 +2,16 @@
 class Flekszible < Formula
   desc "Composition based kubernetes resource file manager"
   homepage ""
-  version "2.0.3"
+  version "2.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/elek/flekszible/releases/download/v2.0.3/flekszible_2.0.3_Darwin_x86_64.tar.gz"
-    sha256 "e1500f2538f4074f370155f7ad92809f6d21c5852307c48638effa4778b640f4"
+    url "https://github.com/elek/flekszible/releases/download/v2.1.0/flekszible_2.1.0_Darwin_x86_64.tar.gz"
+    sha256 "3a84a974448bda1706629f71686ad3b8fa0371eaa53974918effe2fced6cb894"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/elek/flekszible/releases/download/v2.0.3/flekszible_2.0.3_Linux_x86_64.tar.gz"
-      sha256 "9050df8347264dd0dfcd70d2ddc3b468178cb186f21885d311b577a99624a9fb"
+      url "https://github.com/elek/flekszible/releases/download/v2.1.0/flekszible_2.1.0_Linux_x86_64.tar.gz"
+      sha256 "136e6607dd36bd759d099ceb173dd50d08e38b8f164bbbd2095ca8f4b9cec0a5"
     end
   end
 
